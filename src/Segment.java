@@ -13,6 +13,16 @@ public class Segment {
         return Math.sqrt(dx*dx+dy*dy);
     }
 
+    public String toSvg() {
+        return "<line x1=\"" + start.x +
+                "\" y1=\"" + start.y +
+                "\" x2=\"" + end.x +
+                "\" y2=\"" + end.y +
+                "\" style=\"stroke:rgb(0,0,0);stroke-width:2\" />";
+    }
+
+    public static
+
     public Point getStart() {
         return start;
     }
