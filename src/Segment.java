@@ -21,8 +21,6 @@ public class Segment {
                 "\" style=\"stroke:rgb(0,0,0);stroke-width:2\" />";
     }
 
-    public static
-
     public Point getStart() {
         return start;
     }
