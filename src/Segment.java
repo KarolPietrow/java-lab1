@@ -1,6 +1,6 @@
 public class Segment {
-    private Point start;
-    private Point end;
+    private final Point start;
+    private final Point end;
 
     public Segment(Point start, Point end) {
         this.start = start;
