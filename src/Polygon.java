@@ -1,5 +1,5 @@
 public class Polygon {
-    private Point[] points;
+    private final Point[] points;
 
     public Polygon(Point[] points) {
         this.points = points.clone(); // Płytka kopia tablicy
