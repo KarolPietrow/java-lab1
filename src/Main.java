@@ -12,5 +12,16 @@ public class Main {
             System.out.println("Punkt początkowy: (" + s.getStart().x + ", " + s.getStart().y + ")");
             System.out.println("Punkt końcowy: (" + s.getEnd().x + ", " + s.getEnd().y + ")");
         }
+
+        Point[] points = {
+                new Point(50, 150),
+                new Point(150, 50),
+                new Point(250, 150),
+                new Point(150, 250)
+        };
+        Polygon polygon = new Polygon(points);
+        System.out.println(polygon.toSvg());
+
+        Polygon copiedPolygon = new Polygon(polygon);
     }
 }
